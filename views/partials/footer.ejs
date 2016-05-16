@@ -1,5 +1,26 @@
 </div>
-<scripts type="text/javascripts" src="/jquery.min.js"></scripts>
-<scripts type="text/javascripts" src="/js/bootstrap.min.js"></scripts>
+  <script src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+        <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+       
+<script>
+        $(document).ready(function(){
+        $('.nav li a').click(function() {
+        if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+        && location.hostname == this.hostname) {
+         var $target = $(this.hash);
+         $target = $target.length && $target
+         || $('[name=' + this.hash.slice(1) +']');
+         if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 750);
+       return false;
+       }
+     }
+      });
+  });
+        </script>
+        
+  
 </body>
 </html>
