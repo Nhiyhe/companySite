@@ -9,7 +9,7 @@
   },
   "author": "Nhiyhe",
   "license": "ISC",
-  "devDependencies": {
+  "Dependencies": {
     "bootstrap": "^3.3.6",
     "ejs": "^2.4.1",
     "express": "^4.13.4",
