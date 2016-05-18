@@ -21,12 +21,27 @@ body{
      align-items: center;
 }
 
+h1{
+     font-family: Orbitron, Roboto,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 h3{
-    color: white;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
+    color:#63666a;
+    margin-bottom: 0;
+}
+
+h4{
+   font-family: 'Open Sans Condensed', sans-serif;
+   font-size: 2em;
+   color:#fff;
 }
 
 .navbar-default .navbar-nav>li>a {
-    color: black;
+    color: #63666a;
+    font-family:Roboto, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
 }
 
 .navbar-default {
@@ -61,13 +76,21 @@ img{
     
 }
 
-
+.img-content{
+    margin: 1em 0;
+}
 
 #mainImage h1{
     font-size: 4em;
     color:white;
     font-weight: bold;
     
+}
+
+
+.img-thumbnail{
+    background-color: #262F36;
+    border: 1px solid rgba(60, 118, 61, 0.13);
 }
 
 #mainImage p {
@@ -84,7 +107,7 @@ img{
     
     padding:1.7em;
     background-color:#262F36;
-    color: white;
+    color:#ddd;
 }
 
 #sectionTwo{
@@ -102,4 +125,14 @@ img{
     
     padding:1.7em;
    
+}
+
+.navbar-brand{
+    font-family: Orbitron, Roboto,'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#contactSection{
+    padding-bottom: 50px;
+    background-color:#262F36;
+    color: white;
 }
